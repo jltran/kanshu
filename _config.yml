@@ -3,7 +3,7 @@ title: kanshu
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   Mobile app that makes it easier for people to learn Chinese.
-baseurl: "/kanshu/" # the subpath of your site, e.g. /blog/
+baseurl: "/kanshu" # the subpath of your site, e.g. /blog/
 url: "http://jltran.lt" # the base hostname & protocol for your site
 
 #Social Media

@@ -4,10 +4,10 @@
     <title>kanshu</title>
     <description>Mobile app that makes it easier for people to learn Chinese.
 </description>
-    <link>http://jltran.lt/kanshu//</link>
-    <atom:link href="http://jltran.lt/kanshu//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 22 Dec 2014 16:33:26 -0800</pubDate>
-    <lastBuildDate>Mon, 22 Dec 2014 16:33:26 -0800</lastBuildDate>
+    <link>http://jltran.lt/kanshu/</link>
+    <atom:link href="http://jltran.lt/kanshu/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 22 Dec 2014 16:37:09 -0800</pubDate>
+    <lastBuildDate>Mon, 22 Dec 2014 16:37:09 -0800</lastBuildDate>
     <generator>Jekyll v2.5.2</generator>
     
   </channel>
