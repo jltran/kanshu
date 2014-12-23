@@ -6,7 +6,7 @@
  */
 .site-header {
     height: 70%;
-    background-image: url('{{site.baseurl}}/images/pattern/pattern_background.png');
+    background-image: url('#{$imagePath}/images/pattern/pattern_background.png');
     width: 100%;
     border-bottom: 1px solid #e7e7e7;
     

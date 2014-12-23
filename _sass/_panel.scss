@@ -89,7 +89,7 @@
             $device-background-top: #162C4C; 
             $device-background-bottom: #0A120D;
             $gradient-angle: 7deg;
-            $device-screen-image: '{{site.baseurl}}/images/assets/second_section_screen_2.png';
+            $device-screen-image: '#{$imagePath}/images/assets/second_section_screen_2.png';
             
             @include media($on-palm){
                 img{
@@ -177,7 +177,7 @@
 }
 
 #sources{
-    background-image: url('{{site.baseurl}}/images/pattern/red_pattern_background.png');
+    background-image: url('#{$imagePath}/images/pattern/red_pattern_background.png');
     h2 {
         color: #ffffff;
     }
