@@ -165,7 +165,7 @@ html {
  */
 .site-header {
   height: 70%;
-  background-image: url("/images/pattern/pattern_background.png");
+  background-image: url("{{site.baseurl}}/images/pattern/pattern_background.png");
   width: 100%;
   border-bottom: 1px solid #e7e7e7; }
   @media screen and (min-width: 600px) {
@@ -449,7 +449,7 @@ html {
             #panel-two .text-img-container .img-container .device .screen {
               height: 18.75em;
               width: 10.5em;
-              background-image: url("/images/assets/second_section_screen_2.png");
+              background-image: url("{{site.baseurl}}/images/assets/second_section_screen_2.png");
               background-size: cover;
               box-shadow: inset 0 1px 6px rgba(0, 0, 0, 0.5);
               margin: auto;
@@ -515,7 +515,7 @@ html {
         margin-right: 0; }
 
 #sources {
-  background-image: url("/images/pattern/red_pattern_background.png"); }
+  background-image: url("{{site.baseurl}}/images/pattern/red_pattern_background.png"); }
   #sources h2 {
     color: #ffffff; }
   #sources p {
