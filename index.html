@@ -1,165 +1,171 @@
 <!DOCTYPE html>
-<!--[if lt IE 8]>      <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Kanshu</title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+<html>
 
-  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" type="text/css">
-  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700,900" type="text/css">
-  <link rel="stylesheet" href="style.css" type="text/css">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width initial-scale=1">
+
+  <title>kanshu</title>
+  <meta name="description" content="Mobile app that makes it easier for people to learn Chinese.
+">
+
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://yourdomain.com/">
+  <link rel="alternate" type="application/atom+xml" title="kanshu" href="http://yourdomain.com/feed.xml" />
 </head>
-<body>
-  <div class="site-wrapper">
-    <div class="site-wrapper-inner">
-      <svg class="spinner" width="65px" height="65px" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
-        <circle class="path" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30"></circle>
-      </svg>
+
+
+  <body>
+
+    <header class="site-header">
+  
+  <div class="header-container">
+    
+    <a class="site-title" href="/">
+        <img src="/images/assets/logo-small.png" alt="" class="logo-small" />kanshu</a>
+    <div class="hero-content">
+        <div class="content-container-hero">
+            <img src="/images/assets/kanshu_logo.png" alt="" class="logo" />
+            <h1 class="hero-title">Lorem ipsum dolor sit</h1>
+            <h3 class="hero-slug">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo beatae nobis nemo repellendus officiis voluptatem optio, consequuntur, eveniet nam dolor.</h3>
+            <img src="/images/assets/ituens_store.png" alt="" class="itunes" />
+            <img src="/images/assets/play_store.png" alt="" class = "play" />
+            <img src="/images/assets/ituens_store_small.png" alt="" class="itunes-small" />
+            <img src="/images/assets/play_store_small.png" alt="" class = "play-small" />
+        </div>
     </div>
+    <div class="hero-device">
+        <img src="/images/assets/top-section-iphone-white.png" alt="" class="top-section-iphone-white"/>
+        <img src="/images/assets/top-section-iphone-white-small.png" alt="" class="top-section-iphone-white-small">
+    </div>          
   </div>
 
-  <script src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0-alpha.4/handlebars.min.js"></script>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</header>
 
-  <script id="template" type="text/x-handlebars-template">
-    <div class="cover-container">
-      <div class="masthead clearfix">
-        <div class="inner">
-          <h1 class="masthead-brand"><a href="https://assembly.com/{{slug}}">{{name}}</a></h1>
+<nav role="navigation">
+    <ul>
+        <a href="#panel-one"><li>Lorem</li></a>
+        <a href="#panel-two"><li>Quibusdam</li></a>
+        <a href="#panel-three"><li>Quae</li></a>
+        <a href="#panel-four"><li>Eos</li></a>
+        <a href="#site-footer"><li>Sit</li></a>
+    </ul>
+</nav>
+
+        <div class="panel" id="panel-one">
+    <div class="content">
+        <div class="center-text">
+            <h2>Rerum illum consequuntur dolorem voluptates.</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam commodi explicabo necessitatibus numquam qui tenetur harum, earum, dignissimos quo quidem saepe veritatis, sint temporibus porro.</p>
         </div>
-      </div>
-
-      <div class="inner cover">
-        {{#if poster_image_url}}
-          <a href="https://assembly.com/{{slug}}">
-            <img src={{poster_image_url}} width="300px">
-          </a>
-        {{/if}}
-
-        <h2 class="cover-heading">{{pitch}}</h2>
-
-        {{#if description}}
-          <p class="lead">{{description}}</p>
-        {{/if}}
-
-        <style>
-          .alert {
-             z-index: 9000; position: absolute; width: 300px; margin-left: -180px; left: 50%;
-          }
-        </style>
-
-        <div class="alert alert-success alert-dismissible" role="alert" style="display: none;">
-          <button type="button" class="close" data-dismiss="alert">
-            <span aria-hidden="true">&times;</span>
-            <span class="sr-only">Close</span>
-          </button>
-          <h3>Successfully subscribed to {{name}} updates</h3>
+        <div class="img-text-container">
+            <div class="img-container">
+                <img src="/images/assets/first_section_mockup.png" alt="">
+            </div>
+            <div class="text-container">
+                <h2>Rerum illum consequuntur dolorem voluptates.</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam commodi explicabo necessitatibus numquam qui tenetur harum, earum, dignissimos quo quidem saepe veritatis, sint temporibus porro.</p>
+                <img src="/images/assets/levels.png" alt="">
+            </div>
         </div>
-
-        <div class="alert alert-danger alert-dismissible" role="alert" style="display: none;">
-          <button type="button" class="close" data-dismiss="alert">
-            <span aria-hidden="true">&times;</span>
-            <span class="sr-only">Close</span>
-          </button>
-          <h3>There was a problem adding you to the mailing list. Please try again later.</h3>
-        </div>
-
-        <form id="email-signup" class="form-inline" role="form" data-url="https://assembly.com/api/products/{{slug}}/potential_users">
-          <div class="form-group form-group-lg">
-            <label class="sr-only" for="email">Email address</label>
-            <input class="email form-control input-lg" type="email" name="email" placeholder="Email me when it's ready" style="min-width: 300px; text-align: center;" autofocus="true">
-          </div>
-          <button type="submit" class="btn btn-default btn-lg">&gt;</button>
-        </form>
-
-        <h2 class="cover-heading">Core Team</h2>
-        <ul class="list-inline">
-          {{#each core_team}}
-            <li>
-              <a href="https://assembly.com/users/{{username}}">
-                <img src={{avatar_url}} class="img-circle">
-                <h5>{{username}}</h5>
-              </a>
-            </li>
-          {{/each}}
-        </ul>
-
-      </div>
-      <div class="mastfoot">
-        <div class="inner">
-          <p>Made with ♥ on <a href="//assembly.com">Assembly</a></p>
-          <p>Layout based on the Cover template for <a href="http://getbootstrap.com">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
-        </div>
-      </div>
     </div>
-  </script>
+</div>
 
-  <script>
-    $(document).ready(function() {
-      $.get('https://assembly.com/api/products/kanshu/info')
-        .done(function(data) {
-          var name = data.name;
-          var slug = data.slug;
-          var pitch = data.pitch;
-          var description = data.description;
-          var poster_image_url = data.poster_image_url;
-          var core_team = data.core_team;
 
-          if (poster_image_url.indexOf('default_poster.jpg') > -1) {
-            poster_image_url = 'https://assembly.com' + poster_image_url;
-          }
+<div id="panel-two">
+    <div class="panel">
+        <div class="content">
+            <div class="text-img-container">
+                <div class="text-container">
+                    <h2>Consectetur adipisicing elit.</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam commodi explicabo necessitatibus numquam qui tenetur harum, earum, dignissimos quo quidem saepe veritatis, sint temporibus porro.</p>
+                </div>
+                <div class="img-container">
+                    <img src="/images/assets/second_section_mockup.png" alt="">
+                    <div class="device">
+                        <div class="screen"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
-          document.title = name;
+<div id="panel-three">
+    <div class="panel">
+        <div class="content">
+            <div class="img-text-container">
+               <div class="img-container">
+                   <img src="/images/assets/third_section_mockup.png" alt=""/>
+               </div>
+                <div class="text-container">
+                    <h2>Reiciendis perspiciatis?</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut amet recusandae, dolores aliquam accusantium alias eum facere nostrum quam cumque, numquam inventore omnis quae.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
-          var source = $('#template').html();
-          var template = Handlebars.compile(source);
-          var html = template({
-            name: name,
-            slug: slug,
-            pitch: pitch,
-            description: description,
-            poster_image_url: poster_image_url,
-            core_team: core_team || []
-          });
 
-          $('.site-wrapper-inner').html(html);
+<div id="panel-four">
+    <div class="panel">
+        <div class="content">
+            <div class="text-img-container">
+                <div class="text-container">
+                    <h2>Ab et sint veniam facilis labore.</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, corporis, molestias. Dolor aspernatur, nulla placeat rerum, mollitia perferendis quod laborum, dolore amet repudiandae excepturi reprehenderit!</p>
+                </div>
+                <div class="img-container">
+                    <img src="/images/assets/section_4_mockup.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
-          // attach submit listener
-          $('#email-signup').submit(function(e) {
-            e.preventDefault();
 
-            subscribe($(this));
-          });
-        }).fail(function(err) {
-          console.error(err);
-        });
-    });
+<div id="sources">
+    <div class="panel">
+        <div class="content">
+           <div class="center-text">
+                <h2>Nobis esse eos. Perferendis, vel.</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>    
+            </div>
+            <div class="img-container">
+                <img src="/images/assets/chinadaily.png" alt="">
+                <img src="/images/assets/chinadaily.png" alt="">
+                <img src="/images/assets/chinadaily.png" alt="">
+                <img src="/images/assets/chinadaily.png" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+    <footer id="site-footer">
+   <div class="panel">
+       <img src="/images/assets/kanshu_logo.png" alt="" class="logo">
+       <div class="center-text">
+           <h2>Give it a try?</h2>
+           <img src="/images/assets/ituens_store.png" alt="">
+           <img src="/images/assets/play_store.png" alt="">
+           <h2 class="share">Share with your friends.</h2>
+           <div class="circles">
+               <a href="http://www.twitter.com/"><div class="circle"><i class="fa fa-twitter fa-lg"></i></div></a>
+               <a href="http://www.facebook.com/"><div class="circle"><i class="fa fa-facebook fa-lg"></i></div></a>
+                <a href="http://www.plus.google.com/"><div class="circle"><i class="fa fa-google-plus fa-lg"></i></div></a>
+                <a href="mailto:your-email@domain.com"><div class="circle"><i class="fa fa-envelope-o fa-lg"></i></div></a>
+           </div> 
+       </div>
+   </div>
+   <div class="copyright">
+       Kashu all rights reserved ©2015
+   </div>
+</footer>
 
-    function subscribe($form) {
-      var path = $form.data('url');
-      var data = {
-        email: $form.find('input[name="email"]').val()
-      };
 
-      $form.find('input[name="email"]').val('');
+  </body>
 
-      $.post(path, data)
-        .done(function(data) {
-          $form.find('input[name="email"]').val('');
-          $('.alert-success').fadeTo(100, 1);
-          $('.alert-success').fadeTo(10*1000, 0);
-        })
-        .fail(function(err) {
-          $('.alert-danger').fadeTo(100, 1);
-          $('.alert-danger').fadeTo(10*1000, 0);
-        });
-    }
-
-  </script>
-</body>
 </html>
