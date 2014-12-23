@@ -1,89 +1,93 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>SMINT | The simple jQuery plugin for lovers of one page websites.</title>
+---
+layout: default
+---
 
-<meta name = "keywords" content = "SMINT jQuery Plugin, SMINT, jQuery Plugin, One Page Website, Sticky Navigation" />
-<meta name = "description" content = "SMINT is a simple plugin for lovers of one page websites, which helps with sticky menus and page scrolling." />
-<meta name="viewport" content="width=device-width">
-
-
-<link href="css/demo.css" rel="stylesheet" type="text/css">
-<script type="text/javascript" src="js/jquery.min.js"></script>
-
-<script	src="js/jquery.smint.js" type="text/javascript" ></script>
-
-<script type="text/javascript">
-	
-
-$(document).ready( function() {
-    $('.subMenu').smint({
-    	'scrollSpeed' : 1000
-    });
-});
-
-
-</script>
-
-
-</head>
-<body>
-<div class="wrap ">
-	<div class="section sTop">
-		<div class="inner">
-			<h1 class="title">SMINT Demo Page</h1>
-			<h2 class="subtitle">Feel free to use this as your starting template</h2>
-		</div>
-	</div>
-
-	<div class="subMenu" >
-	 	<div class="inner">
-	 		<a href="#sTop" class="subNavBtn">Home</a>
-	 		<a href="#s1" class="subNavBtn">Section 1</a> 
-			<a href="#s2" class="subNavBtn">Section 2</a>
-			<a href="#s3" class="subNavBtn">Section 3</a>
-			<a href="#s4" class="subNavBtn">Section 4</a>
-			<a href="#s5" class="subNavBtn">Section 5</a>
-			<a href="https://twitter.com/rabmyself" class="subNavBtn extLink end">External Link</a>
-		</div>
-	</div>
-
-	<div class="section s1">
-		<div class="inner ">
-			<h1>Section 1</h1>
-		</div>
-	</div>
-
-	<div class="section s2">
-		<div class="inner">
-			<h1>Section 2</h1>
-			<p><a href="#s4" class="intLink">Internal Link: Jump to Section 4</a></p>
-			<p><a href="#sTop" class="intLink">Internal Link: Back to Top</a></p>
-		</div>
-	</div>
-
-
-
-	<div class="section s3">
-		<div class="inner">
-			<h1>Section 3</h1>
-		</div>
-	</div>
-
-	<div class="section s4">
-		<div class="inner">
-			<h1>Section 4</h1>
-		</div>
-	</div>
-
-	<div class="section s5">
-		<div class="inner">
-			<h1>Section 5</h1>
-		</div>
-	</div>
-
-	
+<div class="panel" id="panel-one">
+    <div class="content">
+        <div class="center-text">
+            <h2>Rerum illum consequuntur dolorem voluptates.</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam commodi explicabo necessitatibus numquam qui tenetur harum, earum, dignissimos quo quidem saepe veritatis, sint temporibus porro.</p>
+        </div>
+        <div class="img-text-container">
+            <div class="img-container">
+                <img src="{{site.baseurl}}/images/assets/first_section_mockup.png" alt="">
+            </div>
+            <div class="text-container">
+                <h2>Rerum illum consequuntur dolorem voluptates.</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam commodi explicabo necessitatibus numquam qui tenetur harum, earum, dignissimos quo quidem saepe veritatis, sint temporibus porro.</p>
+                <img src="{{site.baseurl}}/images/assets/levels.png" alt="">
+            </div>
+        </div>
+    </div>
 </div>
 
-</body>
-</html>
+
+<div id="panel-two">
+    <div class="panel">
+        <div class="content">
+            <div class="text-img-container">
+                <div class="text-container">
+                    <h2>Consectetur adipisicing elit.</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam commodi explicabo necessitatibus numquam qui tenetur harum, earum, dignissimos quo quidem saepe veritatis, sint temporibus porro.</p>
+                </div>
+                <div class="img-container">
+                    <img src="{{site.baseurl}}/images/assets/second_section_mockup.png" alt="">
+                    <div class="device">
+                        <div class="screen"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="panel-three">
+    <div class="panel">
+        <div class="content">
+            <div class="img-text-container">
+               <div class="img-container">
+                   <img src="{{site.baseurl}}/images/assets/third_section_mockup.png" alt=""/>
+               </div>
+                <div class="text-container">
+                    <h2>Reiciendis perspiciatis?</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut amet recusandae, dolores aliquam accusantium alias eum facere nostrum quam cumque, numquam inventore omnis quae.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="panel-four">
+    <div class="panel">
+        <div class="content">
+            <div class="text-img-container">
+                <div class="text-container">
+                    <h2>Ab et sint veniam facilis labore.</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, corporis, molestias. Dolor aspernatur, nulla placeat rerum, mollitia perferendis quod laborum, dolore amet repudiandae excepturi reprehenderit!</p>
+                </div>
+                <div class="img-container">
+                    <img src="{{site.baseurl}}/images/assets/section_4_mockup.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="sources">
+    <div class="panel">
+        <div class="content">
+           <div class="center-text">
+                <h2>Nobis esse eos. Perferendis, vel.</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>    
+            </div>
+            <div class="img-container">
+                <img src="{{site.baseurl}}/images/assets/chinadaily.png" alt="">
+                <img src="{{site.baseurl}}/images/assets/chinadaily.png" alt="">
+                <img src="{{site.baseurl}}/images/assets/chinadaily.png" alt="">
+                <img src="{{site.baseurl}}/images/assets/chinadaily.png" alt="">
+            </div>
+        </div>
+    </div>
+</div>

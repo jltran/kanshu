@@ -1,0 +1,142 @@
+@import 'bourbon/bourbon';
+@import 'neat/neat';
+
+/**
+ * Site header
+ */
+.site-header {
+    height: 70%;
+    background-image: url('{{site.baseurl}}/images/pattern/pattern_background.png');
+    width: 100%;
+    border-bottom: 1px solid #e7e7e7;
+    
+    @include media($on-palm){
+        height: 90%;
+    }
+    // Positioning context for the mobile navigation icon
+    //position: relative;
+}
+
+.header-container {
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.logo-small{
+    margin-right: 4px;;
+    @include media($on-palm){
+        display: none;
+    }
+}
+
+.site-title {
+    font-size: 26px;
+    line-height: 56px;
+    letter-spacing: 1px;
+    color: #f0493e;
+    top: 4%;
+    position: absolute;
+}
+
+.hero-content {
+    position: relative;
+    float: left; 
+    width: 60%;
+    height: 100%;
+    
+    .content-container-hero {
+        margin-top: 0;
+        position: absolute;
+        bottom: 10px;
+        @include media($on-palm){
+            bottom: 10%;
+        }
+        .logo {
+            display: none;
+            @include media($on-palm){
+                display: block;
+                margin-left: 30%;
+                margin-top: 10%;
+            }
+        }
+        
+        .hero-title {
+            color: #f0493e;
+            margin-bottom: 0px;
+            font-size: 1em;
+            @include media($on-laptop){
+                font-size: 2em;
+            }
+            @include media(1100px){
+                font-size: 2.5em;
+                margin-left: 10%;
+                margin-right: 10%;
+            }
+        }
+
+        .hero-slug {
+            color: #858585;
+            font-size: 0.6em;
+            @include media(321px){
+                font-size: 0.8em;
+            }
+            @include media($on-laptop){
+                font-size: 1.25em;
+            }
+            @include media(1100px){
+                font-size: 1.5em;
+                margin-left: 10%;
+                margin-right: 10%;
+                
+            }
+        }
+        
+        .itunes, .play{
+            display: none;
+            
+            @include media(930px){
+                display: inline-block;
+            }
+        }
+        
+        .itunes, .itunes-small {
+            margin-left: 0;
+            @include media($on-palm){
+                margin-left: 10%;
+            }
+        }
+        
+        
+        .itunes-small, .play-small{
+            display: inline-block;
+            @include media(930px){
+                display: none;
+            }
+        }
+    }
+}
+
+.hero-device {
+    float: left;
+    width: 30%;
+    .top-section-iphone-white-small{
+        bottom: 30%;
+        position: absolute;
+    }
+    .top-section-iphone-white{
+        display: none;
+    }
+    @include media($on-palm){
+        margin-left: 10%;
+        height: 100%;
+        .top-section-iphone-white{
+            display: block;
+            bottom: 10.01%;
+            position: absolute;
+        }
+        .top-section-iphone-white-small{
+            display: none;
+        }
+    } 
+}

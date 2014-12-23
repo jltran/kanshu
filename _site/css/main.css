@@ -1,0 +1,693 @@
+/**
+ * Reset some basic elements
+ */
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+  margin: 0;
+  padding: 0; }
+
+html, body {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden; }
+
+body {
+  position: relative; }
+
+/**
+ * Basic styling
+ */
+body {
+  font-family: Open Sans, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 300;
+  color: #111;
+  background-color: #FFFFFF;
+  -webkit-text-size-adjust: 100%; }
+
+/**
+ * Set `margin-bottom` to maintain vertical rhythm
+ */
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+ul, ol, dl, figure,
+.highlight {
+  margin-bottom: 15px; }
+
+/**
+ * Images
+ */
+img {
+  max-width: 100%;
+  vertical-align: middle; }
+
+/**
+ * Figures
+ */
+figure > img {
+  display: block; }
+
+figcaption {
+  font-size: 14px; }
+
+/**
+ * Lists
+ */
+ul, ol {
+  margin-left: 30px; }
+
+li > ul,
+li > ol {
+  margin-bottom: 0; }
+
+/**
+ * Headings
+ */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 300; }
+
+/**
+ * Links
+ */
+a {
+  color: #f0493e;
+  text-decoration: none; }
+
+/**
+ * Blockquotes
+ */
+blockquote {
+  color: #828282;
+  border-left: 4px solid #e8e8e8;
+  padding-left: 15px;
+  font-size: 18px;
+  letter-spacing: -1px;
+  font-style: italic; }
+  blockquote > :last-child {
+    margin-bottom: 0; }
+
+/**
+ * Clearfix
+ */
+/**
+ * Icons
+ */
+.icon > svg {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  vertical-align: middle; }
+  .icon > svg path {
+    fill: #828282; }
+
+/* Neat 1.7.0
+ * http://neat.bourbon.io
+ * Copyright 2012-2014 thoughtbot, inc.
+ * MIT License */
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit; }
+
+/**
+ * Site footer
+ */
+#site-footer {
+  border-top: 1px solid #e8e8e8;
+  padding: 30px 0; }
+  #site-footer img.logo {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px; }
+  #site-footer h2, #site-footer p {
+    color: #7e7e7e; }
+  #site-footer .share {
+    margin: 10px 0 10px 0; }
+  #site-footer .circle {
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    background-color: #c5c5c5;
+    display: inline-block;
+    margin: 10px;
+    position: relative; }
+  #site-footer .fa {
+    color: #ffffff; }
+  #site-footer .copyright {
+    border-top: 1px solid #dddbdb;
+    color: #e1e1e1;
+    text-align: center; }
+
+/* Neat 1.7.0
+ * http://neat.bourbon.io
+ * Copyright 2012-2014 thoughtbot, inc.
+ * MIT License */
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit; }
+
+/**
+ * Site header
+ */
+.site-header {
+  height: 70%;
+  background-image: url("{{site.baseurl}}/images/pattern/pattern_background.png");
+  width: 100%;
+  border-bottom: 1px solid #e7e7e7; }
+  @media screen and (min-width: 600px) {
+    .site-header {
+      height: 90%; } }
+
+.header-container {
+  height: 100%;
+  width: 80%;
+  margin: 0 auto; }
+
+.logo-small {
+  margin-right: 4px; }
+  @media screen and (min-width: 600px) {
+    .logo-small {
+      display: none; } }
+
+.site-title {
+  font-size: 26px;
+  line-height: 56px;
+  letter-spacing: 1px;
+  color: #f0493e;
+  top: 4%;
+  position: absolute; }
+
+.hero-content {
+  position: relative;
+  float: left;
+  width: 60%;
+  height: 100%; }
+  .hero-content .content-container-hero {
+    margin-top: 0;
+    position: absolute;
+    bottom: 10px; }
+    @media screen and (min-width: 600px) {
+      .hero-content .content-container-hero {
+        bottom: 10%; } }
+    .hero-content .content-container-hero .logo {
+      display: none; }
+      @media screen and (min-width: 600px) {
+        .hero-content .content-container-hero .logo {
+          display: block;
+          margin-left: 30%;
+          margin-top: 10%; } }
+    .hero-content .content-container-hero .hero-title {
+      color: #f0493e;
+      margin-bottom: 0px;
+      font-size: 1em; }
+      @media screen and (min-width: 800px) {
+        .hero-content .content-container-hero .hero-title {
+          font-size: 2em; } }
+      @media screen and (min-width: 1100px) {
+        .hero-content .content-container-hero .hero-title {
+          font-size: 2.5em;
+          margin-left: 10%;
+          margin-right: 10%; } }
+    .hero-content .content-container-hero .hero-slug {
+      color: #858585;
+      font-size: 0.6em; }
+      @media screen and (min-width: 321px) {
+        .hero-content .content-container-hero .hero-slug {
+          font-size: 0.8em; } }
+      @media screen and (min-width: 800px) {
+        .hero-content .content-container-hero .hero-slug {
+          font-size: 1.25em; } }
+      @media screen and (min-width: 1100px) {
+        .hero-content .content-container-hero .hero-slug {
+          font-size: 1.5em;
+          margin-left: 10%;
+          margin-right: 10%; } }
+    .hero-content .content-container-hero .itunes, .hero-content .content-container-hero .play {
+      display: none; }
+      @media screen and (min-width: 930px) {
+        .hero-content .content-container-hero .itunes, .hero-content .content-container-hero .play {
+          display: inline-block; } }
+    .hero-content .content-container-hero .itunes, .hero-content .content-container-hero .itunes-small {
+      margin-left: 0; }
+      @media screen and (min-width: 600px) {
+        .hero-content .content-container-hero .itunes, .hero-content .content-container-hero .itunes-small {
+          margin-left: 10%; } }
+    .hero-content .content-container-hero .itunes-small, .hero-content .content-container-hero .play-small {
+      display: inline-block; }
+      @media screen and (min-width: 930px) {
+        .hero-content .content-container-hero .itunes-small, .hero-content .content-container-hero .play-small {
+          display: none; } }
+
+.hero-device {
+  float: left;
+  width: 30%; }
+  .hero-device .top-section-iphone-white-small {
+    bottom: 30%;
+    position: absolute; }
+  .hero-device .top-section-iphone-white {
+    display: none; }
+  @media screen and (min-width: 600px) {
+    .hero-device {
+      margin-left: 10%;
+      height: 100%; }
+      .hero-device .top-section-iphone-white {
+        display: block;
+        bottom: 10.01%;
+        position: absolute; }
+      .hero-device .top-section-iphone-white-small {
+        display: none; } }
+
+/* Neat 1.7.0
+ * http://neat.bourbon.io
+ * Copyright 2012-2014 thoughtbot, inc.
+ * MIT License */
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit; }
+
+nav {
+  width: 100%;
+  height: 10%;
+  border-bottom: 1px solid #e7e7e7; }
+  nav ul {
+    margin: 0;
+    list-style: none;
+    height: 100%; }
+    @media screen and (min-width: 600px) {
+      nav ul {
+        float: right;
+        margin-right: 10%; } }
+    nav ul li {
+      position: relative;
+      border-left: 1px solid #e7e7e7;
+      display: inline-block;
+      margin: 0 auto;
+      top: 50%;
+      transform: translateY(-50%);
+      font-weight: 600;
+      color: #858585;
+      padding: 0 6px; }
+      @media screen and (min-width: 600px) {
+        nav ul li {
+          padding: 0 30px; } }
+
+/* Neat 1.7.0
+ * http://neat.bourbon.io
+ * Copyright 2012-2014 thoughtbot, inc.
+ * MIT License */
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit; }
+
+.panel {
+  padding: 30px 0;
+  margin: 0 auto; }
+  @media screen and (min-width: 600px) {
+    .panel {
+      width: 60%; } }
+  .panel .content h2 {
+    font-weight: 600;
+    color: #5a5555;
+    font-size: 1em; }
+  .panel .content p {
+    color: #7e7e7e;
+    font-size: 0.8em; }
+  @media screen and (min-width: 600px) {
+    .panel .content h2 {
+      font-size: 1.5em; }
+    .panel .content p {
+      font-size: 1em; } }
+  .panel .center-text {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto; }
+
+#panel-one {
+  margin-bottom: 30px; }
+  @media screen and (min-width: 1060px) {
+    #panel-one {
+      margin-bottom: 0px; } }
+  #panel-one .img-text-container {
+    height: 100%;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto; }
+    #panel-one .img-text-container:after {
+      content: "";
+      display: table;
+      clear: both; }
+    #panel-one .img-text-container .img-container {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%; }
+      #panel-one .img-text-container .img-container:last-child {
+        margin-right: 0; }
+    #panel-one .img-text-container .text-container {
+      margin-left: 8.5298%;
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 48.82117%;
+      position: relative; }
+      #panel-one .img-text-container .text-container:last-child {
+        margin-right: 0; }
+      @media screen and (min-width: 600px) {
+        #panel-one .img-text-container .text-container {
+          margin-left: 17.05961%;
+          margin-top: 10%; } }
+
+#panel-two {
+  border-top: 1px #d9d9d9;
+  background-color: #f3f3f3; }
+  #panel-two .text-img-container {
+    height: 100%;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto; }
+    #panel-two .text-img-container:after {
+      content: "";
+      display: table;
+      clear: both; }
+    @media screen and (min-width: 600px) {
+      #panel-two .text-img-container {
+        margin-top: 50px; } }
+    #panel-two .text-img-container:after {
+      content: "";
+      display: table;
+      clear: both; }
+    #panel-two .text-img-container .text-container {
+      margin-left: 20px;
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 48.82117%;
+      position: relative; }
+      #panel-two .text-img-container .text-container:last-child {
+        margin-right: 0; }
+      @media screen and (min-width: 600px) {
+        #panel-two .text-img-container .text-container {
+          margin-left: 0;
+          margin-top: 25px; } }
+    #panel-two .text-img-container .img-container {
+      margin-left: 8.5298%;
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%; }
+      #panel-two .text-img-container .img-container:last-child {
+        margin-right: 0; }
+      @media screen and (min-width: 600px) {
+        #panel-two .text-img-container .img-container img {
+          display: none; } }
+      #panel-two .text-img-container .img-container .device {
+        display: none;
+        position: relative; }
+        @media screen and (min-width: 600px) {
+          #panel-two .text-img-container .img-container .device {
+            -webkit-transform: perspective(800px) translateX(0px) translateY(-100px) translateZ(50px) rotateX(0deg) rotateY(-20deg) rotateZ(0deg);
+            -moz-transform: perspective(800px) translateX(0px) translateY(-100px) translateZ(50px) rotateX(0deg) rotateY(-20deg) rotateZ(0deg);
+            -ms-transform: perspective(800px) translateX(0px) translateY(-100px) translateZ(50px) rotateX(0deg) rotateY(-20deg) rotateZ(0deg);
+            -o-transform: perspective(800px) translateX(0px) translateY(-100px) translateZ(50px) rotateX(0deg) rotateY(-20deg) rotateZ(0deg);
+            transform: perspective(800px) translateX(0px) translateY(-100px) translateZ(50px) rotateX(0deg) rotateY(-20deg) rotateZ(0deg);
+            display: block;
+            float: right;
+            margin-bottom: -12em;
+            margin-right: -2em;
+            padding: 3.75em 0;
+            width: 11.1em;
+            border-radius: 1.5em;
+            background: #1a1a1a;
+            box-shadow: 1px 0px #343434, 3px 0px #060606, 5px 0px black, 7px 0px black, 10px 0px black;
+            z-index: 99999; }
+            #panel-two .text-img-container .img-container .device .screen {
+              height: 18.75em;
+              width: 10.5em;
+              background-image: url("{{site.baseurl}}/images/assets/second_section_screen_2.png");
+              background-size: cover;
+              box-shadow: inset 0 1px 6px rgba(0, 0, 0, 0.5);
+              margin: auto;
+              border-radius: .2em; } }
+
+#panel-three .img-text-container {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative; }
+  #panel-three .img-text-container:after {
+    content: "";
+    display: table;
+    clear: both; }
+  #panel-three .img-text-container .img-container {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 40.29137%; }
+    #panel-three .img-text-container .img-container:last-child {
+      margin-right: 0; }
+  #panel-three .img-text-container .text-container {
+    margin-left: 8.5298%;
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%;
+    margin-top: 35%;
+    transform: translateY(-50%); }
+    #panel-three .img-text-container .text-container:last-child {
+      margin-right: 0; }
+
+#panel-four {
+  border-top: 1px #d9d9d9;
+  background-color: #f3f3f3; }
+  #panel-four .text-img-container {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    margin-left: 20px; }
+    #panel-four .text-img-container:after {
+      content: "";
+      display: table;
+      clear: both; }
+    #panel-four .text-img-container .text-container {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 48.82117%; }
+      #panel-four .text-img-container .text-container:last-child {
+        margin-right: 0; }
+      @media screen and (min-width: 600px) {
+        #panel-four .text-img-container .text-container {
+          margin-top: 5%; } }
+    #panel-four .text-img-container .img-container {
+      margin-left: 8.5298%;
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 40.29137%; }
+      #panel-four .text-img-container .img-container:last-child {
+        margin-right: 0; }
+
+#sources {
+  background-image: url("{{site.baseurl}}/images/pattern/red_pattern_background.png"); }
+  #sources h2 {
+    color: #ffffff; }
+  #sources p {
+    color: #ffffff; }
+  #sources .img-container {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    positon: relative; }
+    #sources .img-container:after {
+      content: "";
+      display: table;
+      clear: both; }
+    #sources .img-container img {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 23.23176%;
+      margin: 30px 0;
+      padding: 0 10px; }
+      #sources .img-container img:last-child {
+        margin-right: 0; }
+
+/**
+ * Syntax highlighting styles
+ */
+.highlight {
+  background: #fff; }
+  .highlight .c {
+    color: #998;
+    font-style: italic; }
+  .highlight .err {
+    color: #a61717;
+    background-color: #e3d2d2; }
+  .highlight .k {
+    font-weight: bold; }
+  .highlight .o {
+    font-weight: bold; }
+  .highlight .cm {
+    color: #998;
+    font-style: italic; }
+  .highlight .cp {
+    color: #999;
+    font-weight: bold; }
+  .highlight .c1 {
+    color: #998;
+    font-style: italic; }
+  .highlight .cs {
+    color: #999;
+    font-weight: bold;
+    font-style: italic; }
+  .highlight .gd {
+    color: #000;
+    background-color: #fdd; }
+  .highlight .gd .x {
+    color: #000;
+    background-color: #faa; }
+  .highlight .ge {
+    font-style: italic; }
+  .highlight .gr {
+    color: #a00; }
+  .highlight .gh {
+    color: #999; }
+  .highlight .gi {
+    color: #000;
+    background-color: #dfd; }
+  .highlight .gi .x {
+    color: #000;
+    background-color: #afa; }
+  .highlight .go {
+    color: #888; }
+  .highlight .gp {
+    color: #555; }
+  .highlight .gs {
+    font-weight: bold; }
+  .highlight .gu {
+    color: #aaa; }
+  .highlight .gt {
+    color: #a00; }
+  .highlight .kc {
+    font-weight: bold; }
+  .highlight .kd {
+    font-weight: bold; }
+  .highlight .kp {
+    font-weight: bold; }
+  .highlight .kr {
+    font-weight: bold; }
+  .highlight .kt {
+    color: #458;
+    font-weight: bold; }
+  .highlight .m {
+    color: #099; }
+  .highlight .s {
+    color: #d14; }
+  .highlight .na {
+    color: #008080; }
+  .highlight .nb {
+    color: #0086B3; }
+  .highlight .nc {
+    color: #458;
+    font-weight: bold; }
+  .highlight .no {
+    color: #008080; }
+  .highlight .ni {
+    color: #800080; }
+  .highlight .ne {
+    color: #900;
+    font-weight: bold; }
+  .highlight .nf {
+    color: #900;
+    font-weight: bold; }
+  .highlight .nn {
+    color: #555; }
+  .highlight .nt {
+    color: #000080; }
+  .highlight .nv {
+    color: #008080; }
+  .highlight .ow {
+    font-weight: bold; }
+  .highlight .w {
+    color: #bbb; }
+  .highlight .mf {
+    color: #099; }
+  .highlight .mh {
+    color: #099; }
+  .highlight .mi {
+    color: #099; }
+  .highlight .mo {
+    color: #099; }
+  .highlight .sb {
+    color: #d14; }
+  .highlight .sc {
+    color: #d14; }
+  .highlight .sd {
+    color: #d14; }
+  .highlight .s2 {
+    color: #d14; }
+  .highlight .se {
+    color: #d14; }
+  .highlight .sh {
+    color: #d14; }
+  .highlight .si {
+    color: #d14; }
+  .highlight .sx {
+    color: #d14; }
+  .highlight .sr {
+    color: #009926; }
+  .highlight .s1 {
+    color: #d14; }
+  .highlight .ss {
+    color: #990073; }
+  .highlight .bp {
+    color: #999; }
+  .highlight .vc {
+    color: #008080; }
+  .highlight .vg {
+    color: #008080; }
+  .highlight .vi {
+    color: #008080; }
+  .highlight .il {
+    color: #099; }
+
+/* Neat 1.7.0
+ * http://neat.bourbon.io
+ * Copyright 2012-2014 thoughtbot, inc.
+ * MIT License */
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit; }

@@ -1,0 +1,40 @@
+@import 'bourbon/bourbon';
+@import 'neat/neat';
+
+/**
+ * Site footer
+ */
+#site-footer {
+    border-top: 1px solid $grey-color-light;
+    padding: $spacing-unit 0;
+    img.logo{
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+    h2, p{
+        color: #7e7e7e;
+    }
+    .share{
+        margin: 10px 0 10px 0;
+    }
+    .circle{
+        height: 50px;
+        width: 50px;
+        line-height: 50px;
+        border-radius: 50%;
+        background-color: #c5c5c5;
+        display: inline-block;
+        margin: 10px;
+        position: relative;
+    }
+    .fa{
+        color: #ffffff;
+    }
+    
+    .copyright{
+        border-top: 1px solid #dddbdb;
+        color: #e1e1e1;
+        text-align: center;
+    }
+}
